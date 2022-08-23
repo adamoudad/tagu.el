@@ -1,8 +1,13 @@
-#+TITLE: Tagu.el is a simple program for managing the status of multiple projects
+#+TITLE: Tagu.el is a simple program for managing projects
 * Intro
 Let's consider you have one directory in which you store all your projects as a collection of sub-directory. Each project can have multiple tags such as =production=, =stale=, =test=, etc, which marks its development status or any other information. This list of tags is written in a file named =tags= at the root of the project folder.
 
 /Tagu.el/ lets you manage (add or delete) these tags, list projects with their associated tags, or list tags with their associated projects.
+* Roadmap
+- [X] Get a list of a project's tags.
+- [ ] Edit a list of tags and update the project with new tags.
+- [ ] Simple UI showing a list of projects and their tags. One can select a project to edit its tags.
+- [ ] UI shows a list of tags with their associted projects. One can switch between the tag view and the project view.
 
 * Why
 I am doing this mainly to improve my skills in Emacs LISP. Any contribution or feedback is welcome! I would not be surprised to find out an Emacs package already does this a lot better than /Tagu.el/, although I am not aware of any yet.
